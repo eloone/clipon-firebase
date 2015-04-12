@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="clipon">
+    <head>
+        <title>clipon | the online clipboard</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="/clipon.css">
+        <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+        <base href="/">
+    </head>
+    <body ng-controller="cliponConnectCtrl">
+
+        <clipon-input content="clipboard.content"></clipon-input>
+
+        <div ng-cloak ng-show="users.length" class="session">
+            <span class="count">{{users.length}}</span>
+            {{users.length > 1 ? 'users are' : 'user is'}} currently using your url : <span class="url">{{urlPath}}</span>
+        </div>
+
+        <div class="oye-oye">
+            This is an online clipboard.
+            <p class='side'>Copy paste from anywhere to everywhere !</p>
+        </div>
+
+        <div class="footer">
+            <h1>
+                clipon the online clipboard &#169; 2015 |
+                <a target="_blank" href="https://github.com/eloone/clipon-firebase">by eloone</a>
+            </h1>
+        </div>
+
+        <script src="/bower_components/angular/angular.min.js"></script>
+        <script src="/bower_components/firebase/firebase.js"></script>
+        <script src="/bower_components/angularfire/dist/angularfire.min.js"></script>
+        <script src="/modules/lib/services/utils.js"></script>
+        <script src="/modules/input/directives/editable.js"></script>
+        <script src="/modules/input/directives/input.js"></script>
+        <script src="/modules/connect/controllers/connect.js"></script>
+        <script src="/run.js"></script>
+
+        <!-- // Finally. In front of her she could see, the universe opening to set her free. // -->
+    </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "clipon",
+  "version": "2.0.0",
+  "authors": [
+    "eloone <elodie.rafali@gmail.com>"
+  ],
+  "description": "Online clipboard",
+  "main": "app/index.html",
+  "keywords": [
+    "clipboard"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularfire": "~1.0.0"
+  }
+}

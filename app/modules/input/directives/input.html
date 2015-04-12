@@ -1,0 +1,11 @@
+<textarea id="input"
+ ng-focus="editing = true"
+ ng-blur="editing = false"
+ ng-show="hasContent() || editing"
+ ng-model="content"
+ format-content>
+</textarea>
+<textarea ng-focus="transferFocus()" ng-show="!hasContent() && !editing" class="empty">
+Paste your snippet here and go to {{fullUrl}} on your other device to retrieve it.
+You can also customize your own url into /whatever ;)
+</textarea>

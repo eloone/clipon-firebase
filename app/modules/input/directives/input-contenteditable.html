@@ -1,0 +1,15 @@
+<div class="editable">
+	<div ng-focus="editing = true"
+	 	ng-blur="editing = false"
+	 	id="input"
+	 	ng-show="hasContent() || editing"
+	 	clipon-editable="{{editing}}"
+	 	ng-model="content"
+	 	format-content>
+	</div>
+	<div ng-click="transferFocus()" class="empty" ng-show="!hasContent() && !editing">
+	    Paste your snippet here and go to <span class="full-url">{{fullUrl}}</span> on your other device to retrieve it.
+	    <br/>
+	    You can also customize your own url into /whatever ;)
+	</div>
+</div>

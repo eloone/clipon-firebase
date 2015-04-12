@@ -1,0 +1,25 @@
+{
+  "name": "clipon",
+  "version": "2.0.0",
+  "description": "This is an online clipboard.",
+  "main": "server/run.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "^4.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eloone/clipon-firebase.git"
+  },
+  "keywords": [
+    "clipboard",
+    "copy",
+    "paste"
+  ],
+  "author": "eloone",
+  "license": "BSD"
+}

@@ -1,0 +1,88 @@
+html{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Merriweather', serif;
+	font-size:18px;
+	margin:0;
+	padding:0;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+div.editable, textarea{
+	border: 2px dashed #ccc;
+	outline :none;
+	min-height:100px;
+	padding:15px;
+	margin:15px;
+	font-size:18px;
+	font-family: 'Merriweather', serif;
+	background: white;
+	position: relative;
+	z-index: 1;
+}
+
+div#input{
+	min-height:100px;
+	outline :none;
+	cursor: text;
+}
+
+textarea{
+	width:95%;
+}
+
+.session{
+	text-align:right;
+	font-size:12px;
+	color:#999;
+	padding: 0 10px;
+}
+
+.empty{
+	color : #AAA;
+}
+
+.full-url, .count, .url{
+	color:black;
+}
+
+.side{
+	color : #AAA;
+}
+
+.footer{
+	position: absolute;
+	bottom:5px;
+	width:100%;
+	color : #AAA;
+	font-size: 12px;
+}
+
+.footer a{
+	float:right;
+	text-decoration: none;
+	font-weight: normal;
+	color: black;
+	text-decoration: underline;
+	margin-left: 3px;
+}
+
+h1{
+	font-size:12px;
+	text-align:right;
+	font-weight: normal;
+	margin : 15px 15px 10px 15px
+}
+
+.oye-oye{
+	position: absolute;
+	top:50%;
+	width: 100%;
+	text-align: center;
+}
