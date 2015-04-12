@@ -36,6 +36,6 @@ It grew from an almost framework-less app to a framework-packed app, but the no 
 
 ## Review
 
-I will post a review here of my use of the preceding stack. But all in all, I think Firebase is still too alpha, I encountered bugs, service outage and very weird code design. The no backend is the promess but if you want serious security rules then the complexity is equivalent (if not greater) to having your own backend I think. My review is coming soon!
+I will post a review here of my use of the preceding stack. But all in all, I think Firebase is still too alpha, I encountered bugs, service outage and very weird code design. The no backend is the promise but if you want serious security rules then the complexity is equivalent (if not greater) to having your own backend I think. My review is coming soon!
 
 
